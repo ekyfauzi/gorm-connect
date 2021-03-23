@@ -1,4 +1,4 @@
-module github.com/ekyfauzi/pipet
+module github.com/ekyfauzi/gorm-connect
 
 go 1.14
 

@@ -1,13 +1,13 @@
-# Pipet
+# GORM Connect
 GORM wrapper to connect to read and write databases
 
 # Install
-```go get github.com/ekyfauzi/pipet```
+```go get github.com/ekyfauzi/gorm-connect```
 
 # Usages
 ### Connection
 ```go
-import "github.com/ekyfauzi/pipet"
+import "github.com/ekyfauzi/gormconnect"
 
 func main() {
   host := "YOUR_DB_WRITE_HOST"
@@ -18,7 +18,7 @@ func main() {
   dbName := "YOUR_DB_NAME"
   
   // Set default connection
-  conn := pipet.Init("mysql")
+  conn := gormconnect.Init("mysql")
   conn.SetWrite(host, port, user, passwd, dbName)
   
   // Add read db connection
