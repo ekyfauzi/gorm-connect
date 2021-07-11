@@ -7,7 +7,7 @@ GORM wrapper to connect to read and write databases
 # Usages
 ### Connection
 ```go
-import "github.com/ekyfauzi/gormconnect"
+gormconnect import "github.com/ekyfauzi/gorm-connect"
 
 func main() {
   host := "YOUR_DB_WRITE_HOST"
